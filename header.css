@@ -1,0 +1,86 @@
+header,
+.subheader {
+    width: 100%;
+    padding-bottom: 20px;
+    display: block;
+    clear: both;
+    float: none;
+}
+
+nav {
+    padding-left: 0%;
+    padding-right: 0%;
+    text-align: center;
+    width: 100%;
+    display: block;
+    background-color: black;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+nav .project-title:first-child,
+nav .gallery-title:first-child,
+nav .page-title:first-child,
+nav .logo:first-child {
+    padding-left: 0 !important;
+}
+
+nav .page-title,
+nav .gallery-title,
+nav .project-title,
+nav .link-title,
+nav .social,
+nav .social li {
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+nav .gallery-title {
+    padding-right: 40px;
+}
+
+nav .gallery-title a.active {
+    color: rgb(51, 204, 204);
+    font-style: normal;
+    font-weight: 500;
+}
+
+nav .gallery-title a {
+    color: #999999;
+    font-family: fbft;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+nav .page-title {
+    padding-right: 40px;
+}
+
+nav .page-title a:hover {
+    color:rgb(51, 204, 204);
+    transition: color 0.2s ease;
+}
+
+nav .page-title a {
+    color: #999999;
+    font-family: fbft;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+a {text-decoration: none;}
+
+aside {
+padding-left: 30px;
+padding-right: 30px;
+}
+
+article {
+    text-align: justify;
+}
