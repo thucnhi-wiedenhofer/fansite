@@ -103,8 +103,10 @@ h6 {
 
 hr {
     border: 0;
-    border-bottom: solid 1px rgba(210, 215, 217, 0.75);
+    border-bottom: solid 1px black;
     margin: 2em 0;
+    margin-left: 10%;
+    width: 80%;
 }
 
 hr.major {
@@ -194,6 +196,7 @@ header p {
 
 .row>.col-5 {
     width: 41.66667%;
+    margin-left: 5%;
 }
 
 
