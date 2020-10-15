@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Contacts</title>
+</head>
+<body>
+    <header>
+        <div class="image fit">
+            <img src="img/header.gif" alt="Banksy">
+        </div>
+        <nav>
+            <div class="page-title"><a href="accueil.html">Accueil</a></div>
+            <div class="page-title"><a  href="presentation.html">Présentation</a></div>
+            <div class="page-title"><a  href="evenement.html">Evénements</a></div>
+            <div class="page-title"><a  href="revue.html">Revue</a></div>
+            <div class="gallery-title"><a class="active" href="contact.html">Contacts</a></div>
+            
+        </nav>   
+
+    </header>
+
+    <main class="container" >
+
+        <div class="row">
+            <div class="col-9">
+               
+                <h1>Contacts</h1>
+        
+                <form class="form-style-10" action="accueil.html" method="POST">
+                            
+                            <div class="section"><span>1</span>Nom & Prénom</div>
+                                <article>
+                                    <label for="nom">Nom <input type="text" id="nom" name="nom" required /></label>
+                                    <label for="prenom">Prénom <input type="text" id="prenom" name="prenom" required /></label>
+                                </article>
+                    
+                                <div class="section"><span>2</span>Etat Civil</div>
+                                <article>
+                                <label for="naissance">Date Naissance <input type="date" id="naisance" name="naissance" required /></label>
+                                <label for="masculin">Sexe Masculin<input type="radio" id="masculin" name="sexe" value="masculin" /></label>
+                                <label for="feminin">Sexe Féminin<input type="radio" id="feminin" name="sexe" value="feminin" /></label>
+                                </article>
+                            
+                                <div class="section"><span>3</span>Email & Téléphone</div>
+                                <article>
+                                    <label for="email">Email <input type="email" id="email" name="email" /></label>
+                                    <label for="phone">Téléphone<input type="tel" id="phone" name="phone" /></label>
+                                </article>
+                    
+                                <div class="section"><span>4</span>Message</div>
+                                <article>
+                                <label for="presentation">Présentation <textarea id="presentation" name="presentation"></textarea></label>
+                                </article>
+                                <div class="button-section">
+                                <input type="submit" name="Sign Up" />
+                                </div>
+                </form>
+            </div>
+
+            <div class="col-3">
+                <aside>
+                    <article>
+                    <p>
+                        images
+                    </p>
+                    </article>
+                </aside>
+            </div>
+                              
+        </div>
+    </main>
+
+    <footer>
+        <section class="row">
+            <div class="col-4">
+                <div class="reseaux">
+                <ul>
+                    <li><a href="#" class="reseaux">f</a></li>
+                    <li><a href="#" class="reseaux">t</a></li>
+                    <li><a href="#" class="reseaux">l</a></li>
+                    <li><a href="#" class="reseaux">p</a></li>
+                </ul>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <nav>
+                    <ul>
+                        <li><a href="accueil.html">Accueil</a></li>
+                        <li><a href="presentation.html">Présentation</a></li>
+                        <li><a href="evenement.html">Evènements</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="col-4">
+                <nav>
+                    <ul>
+                        
+                        <li><a href="revue.html">Revue de presse</a></li>
+                        <li><a href="contact.html">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
