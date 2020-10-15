@@ -23,7 +23,7 @@ body, input, select, textarea {
 .container {
     margin: 20px auto;
     overflow: auto;
-    width: 80%;
+    width: 90%;
     min-height: 630px;
 }
 
@@ -405,7 +405,7 @@ aside {
 }
 
 article {
-    text-align: justify;
+    text-align: left;
 }
 
 /*slide*/
@@ -604,10 +604,6 @@ footer a{
 .card .info h1 {
     margin: 0px;    
 }
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-}
 
 .card .info p {
     letter-spacing: 1px;
@@ -727,8 +723,10 @@ a:-webkit-any-link {
 }
 
 .form-style-10 input[type="text"],
-.form-style-10 input[type="datetime-local"],
+.form-style-10 input[type="date"],
 .form-style-10 input[type="check"],
+.form-style-10 input[type="email"],
+.form-style-10 input[type="tel"],
 .form-style-10 textarea,
 .form-style-10 select {
     display: block;
@@ -744,12 +742,16 @@ a:-webkit-any-link {
     box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
     -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
     -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+     background: #F8F8F8;
+    
 }
 
 .form-style-10 .section {
     font: normal 20px 'Bitter', serif;
     color: #93e265;
     margin-bottom: 5px;
+   
+     
 }
 
 .form-style-10 .section span {
@@ -808,3 +810,27 @@ a:-webkit-any-link {
   font-size: 15px;
 }
 
+a.active {
+    color: rgb(51, 204, 204);
+    font-style: normal;
+    font-weight: 500;
+}
+
+a {
+    color: #999999;
+    font-family: fbft;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(51, 204, 204);
+    transition: color 0.2s ease;
+}
+a:visited {
+    color:#999999;
+    text-decoration: none;
+}
