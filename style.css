@@ -225,6 +225,7 @@ header p {
 
 .row>.col-12 {
     width: 100%;
+    text-align: center;
 }
 
 .row {
