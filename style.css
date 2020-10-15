@@ -694,7 +694,7 @@ footer a{
 }
 
 .form-style-10 h1 {
-    background: #93e265;
+    background: #e0402a;
     padding: 20px 30px 15px 30px;
     margin: -30px -30px 30px -30px;
     border-radius: 10px 10px 0 0;
@@ -706,7 +706,7 @@ footer a{
     -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
     -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
     box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
-    border: 1px solid #257C9E;
+    border: 1px solid#e0402a;
 }
 
 .form-style-10 h1>span {
@@ -748,14 +748,14 @@ footer a{
 
 .form-style-10 .section {
     font: normal 20px 'Bitter', serif;
-    color: #93e265;
+    color:#e0402a;
     margin-bottom: 5px;
    
      
 }
 
 .form-style-10 .section span {
-    background: #93e265;
+    background: #e0402a;
     padding: 5px 10px 5px 10px;
     position: absolute;
     border-radius: 50%;
@@ -770,7 +770,7 @@ footer a{
 
 .form-style-10 input[type="button"],
 .form-style-10 input[type="submit"] {
-    background: #93e265;
+    background: #e0402a;
     padding: 8px 20px 8px 20px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -781,20 +781,20 @@ footer a{
     -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
     -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
     box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
-    border: 1px solid #257C9E;
+    border: 1px solid#e0402a;
     font-size: 15px;
 }
 
 .form-style-10 input[type="button"]:hover,
 .form-style-10 input[type="submit"]:hover {
-    background: #2A6881;
+    background:#e0402a;
     -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
     -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
     box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
 }
 
 .button {
-  background: #93e265;
+  background: #e0402a;
   padding: 8px 20px 8px 20px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -806,7 +806,7 @@ footer a{
   -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
   -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
   box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
-  border: 1px solid #257C9E;
+  border: 1px solid#e0402a;
   font-size: 15px;
 }
 
@@ -817,7 +817,7 @@ a.active {
 }
 
 a {
-    color: #999999;
+    color: #6d6666;
     font-family: fbft;
     font-size: 20px;
     font-style: normal;
@@ -831,6 +831,6 @@ a:hover {
     transition: color 0.2s ease;
 }
 a:visited {
-    color:#999999;
+    color:#328377;
     text-decoration: none;
 }
